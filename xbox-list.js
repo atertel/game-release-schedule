@@ -1,6 +1,3 @@
-/*
-    This version builds a list for each platform. It runs phantom several times to do this. Phantom is slow. This is slow.
-*/
 
 var page = require('webpage').create();
 page.onConsoleMessage = function (msg) {
